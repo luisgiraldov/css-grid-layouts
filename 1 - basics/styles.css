@@ -39,6 +39,7 @@ body {
 
 .main-container > div:nth-child(4) {
   grid-column: 2 / 6;
+  align-self: center;
 }
 
 .main-container > div:nth-child(5) {
@@ -47,5 +48,7 @@ body {
 
 .main-container > div:nth-child(6) {
   grid-column: span 3;
+  justify-self: end;
+  align-self: start;
 }
 
